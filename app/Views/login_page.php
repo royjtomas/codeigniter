@@ -35,7 +35,7 @@ body {
             </div>
             <div class="mb-3">
                <label class="form-label">Password</label>
-               <input class="form-control" type = "text" name="pass"/>
+               <input class="form-control" type = "password" name="pass"/>
             </div>
             <div class="mb-3">
                <button class="btn btn-primary" type="sub">Login</button>
