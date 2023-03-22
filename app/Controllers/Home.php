@@ -33,7 +33,7 @@ class Home extends BaseController
             return view ('admin_page', $data);           
         }
         else{
-            return redirect()->to('login');
+            return redirect()->to('/');
         }
             
     }

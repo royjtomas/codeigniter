@@ -9,4 +9,5 @@ class UserAccount extends Model
     protected $table      = 'users';
     protected $primaryKey = 'id';
     protected $createdField = 'dtc';
+    protected $protectedFields = False;
 }

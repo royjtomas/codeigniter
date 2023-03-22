@@ -6,10 +6,29 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
+  
+  <style>
+  html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  background-color: #636363; background: -webkit-linear-gradient(to top, #636363, #a2ab58); background: linear-gradient(to top, #636363, #a2ab58);
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
   <body>
-    <div class="container">
+    <div class='container border border-primary' style="width:500px; border-radius:25px; background-color:white"> 
         <form method = "post" action="http://localhost/codeigniter/public/process/login" class="mx-auto mt-5" style="max-width:320px">
-        <h2 class="text-center mt-5 mb-3"> Login to URL Shortening System</h2>
+        
+          <h2 class="text-center mb-3"> Welcome! </h2>
+        <h3> LOGIN </h3>
             <div class="mb-3">
                <label class="form-label">Username</label>
                <input class="form-control" type = "text" name="username"/>
@@ -20,6 +39,9 @@
             </div>
             <div class="mb-3">
                <button class="btn btn-primary" type="sub">Login</button>
+            </div>
+            <div class="mb-3 text-end">
+                <a href="#register" class="btn btn-secondary">Register</a>
             </div>
 
         </form>
