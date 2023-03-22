@@ -35,6 +35,8 @@ class Home extends BaseController
         else{
             return redirect()->to('/');
         }
+
+    
             
     }
 

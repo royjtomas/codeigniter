@@ -14,7 +14,7 @@
   margin: 0;
 }
 body {
-  background-color: #636363; background: -webkit-linear-gradient(to top, #636363, #a2ab58); background: linear-gradient(to top, #636363, #a2ab58);
+  background-color: ##0F2027; background: -webkit-linear-gradient(to top, #0F2027, #203A43, #2C5364); background: linear-gradient(to top, #0F2027, #203A43, #2C5364);
 }
 .container {
   position: absolute;
@@ -28,7 +28,7 @@ body {
         <form method = "post" action="http://localhost/codeigniter/public/process/login" class="mx-auto mt-5" style="max-width:320px">
         
           <h2 class="text-center mb-3"> Welcome! </h2>
-        <h3> LOGIN </h3>
+        <h3 class="text-center mb-3"> LOGIN </h3>
             <div class="mb-3">
                <label class="form-label">Username</label>
                <input class="form-control" type = "text" name="username"/>
@@ -43,11 +43,13 @@ body {
             <div class="mb-3 text-end">
                 <a href="#register" class="btn btn-secondary">Register</a>
             </div>
+            
 
         </form>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
   </body>
 
   
