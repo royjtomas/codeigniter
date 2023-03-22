@@ -14,7 +14,7 @@
   margin: 0;
 }
 body {
-  background-color: ##0F2027; background: -webkit-linear-gradient(to top, #0F2027, #203A43, #2C5364); background: linear-gradient(to top, #0F2027, #203A43, #2C5364);
+  background-color: #0F2027; background: -webkit-linear-gradient(to top, #0F2027, #203A43, #2C5364); background: linear-gradient(to top, #0F2027, #203A43, #2C5364);
 }
 .container {
   position: absolute;
@@ -41,7 +41,7 @@ body {
                <button class="btn btn-primary" type="sub">Login</button>
             </div>
             <div class="mb-3 text-end">
-                <a href="#register" class="btn btn-secondary">Register</a>
+                <a href="#register" class="btn btn-secondary">Sign Up</a>
             </div>
             
 
